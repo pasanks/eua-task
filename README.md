@@ -5,13 +5,13 @@
 Clone the repository
 
 ```bash
-git clone https://github.com/macroactive-io/plugin-period-tracker.git
+git clone https://github.com/pasanks/eua-task.git
 ```
 
 Switch to the repo folder
 
 ```bash
-cd plugin-period-tracker
+cd eua-task
 ```
 
 Install all the dependencies using composer
@@ -65,13 +65,6 @@ button in the dashboard it will throw and error.(Error identified)
 - Email template needs attention.
 - Button should be implemented to subscribe for weather updates notifications.
 
-Please review [our security policy](https://github.com/pasanks/managely/security/policy) on how to report security vulnerabilities.
-
-
-## Security Vulnerabilities
-
-Please review [our security policy](https://github.com/pasanks/managely/security/policy) on how to report security vulnerabilities.
-
 ## License
 
-This project is not open-sourced and is the intellectual property of **MacroActive**.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
