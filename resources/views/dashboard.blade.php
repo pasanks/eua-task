@@ -129,7 +129,7 @@
         </div>
     </div>
     <script type="text/javascript"
-            src="https://maps.google.com/maps/api/js?key=AIzaSyBAO4BkSfifVI-S_tTFhzNgUc0xF5R7Gbk&libraries=places" ></script>
+            src="https://maps.google.com/maps/api/js?key={{env('GOOGLE_MAPS_API_KEY')}}&libraries=places" ></script>
     <script>
         $(document).ready(function () {
             $("#latitudeArea").addClass("d-none");
