@@ -26,6 +26,7 @@ Route::get('test', [\App\Http\Controllers\TestController::class, 'index']);
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('favourites', [FavouriteController::class, 'index'])->name('favourites');
     Route::post('favourites', [FavouriteController::class, 'store'])->name('favourites.store');
+    Route::get('notification-status/{id}', [FavouriteController::class, 'enableNotifications'])->name('favourites.enableNotifications');
     Route::post('query-weather-details', [WeatherController::class, 'queryWeatherDetails'])->name('query.weather.details');
 });
 

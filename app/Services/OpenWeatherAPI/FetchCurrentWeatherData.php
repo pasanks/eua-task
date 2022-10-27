@@ -30,12 +30,12 @@ class FetchCurrentWeatherData
     /**
      * Fetch data from openweather API
      *
-     * @param $latitude
-     * @param $longitude
+     * @param string $latitude
+     * @param string $longitude
      *
      * @return array|mixed|null
      */
-    public function fetch($latitude, $longitude)
+    public function fetch(string $latitude, string $longitude)
     {
         try {
             Log::info('Trying to fetch current weather details from openweather API...');

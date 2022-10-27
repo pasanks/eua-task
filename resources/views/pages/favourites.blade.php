@@ -50,8 +50,20 @@
                                         </td>
 
                                         <td class="py-4 px-6">
-                                            btn
+                                        @if($favourite->send_notification == true)
+                                                <a href="{{ route('favourites.enableNotifications',$favourite->id) }}"
+                                                   class="bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                                                    Disable Notifications
+                                                </a>
+                                        @else
+                                                <a href="{{ route('favourites.enableNotifications',$favourite->id) }}"
+                                                   class="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">
+                                                    Enable Notifications
+                                                </a>
+                                        @endif
+
                                         </td>
+
                                     </tr>
                                 @endforeach
                                 </tbody>

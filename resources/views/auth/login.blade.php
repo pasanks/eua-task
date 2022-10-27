@@ -49,7 +49,7 @@
                 @endif
 
                 <x-primary-button class="ml-3">
-                    <a href="{{ route('register') }}" class="text-sm text-white">Register</a>
+                    <a href="{{ route('register') }}" class="text-xs text-white">Register</a>
                 </x-primary-button>
                 <x-primary-button class="ml-3">
                     {{ __('Log in') }}

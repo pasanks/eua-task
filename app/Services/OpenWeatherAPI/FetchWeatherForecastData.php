@@ -35,12 +35,12 @@ class FetchWeatherForecastData
     /**
      * Fetch data from openweather API
      *
-     * @param $latitude
-     * @param $longitude
+     * @param string $latitude
+     * @param string $longitude
      *
      * @return array|null
      */
-    public function fetch($latitude, $longitude)
+    public function fetch(string $latitude, string $longitude)
     {
         $forecastData = array();
         try {
