@@ -36,4 +36,11 @@ return [
         'url' => env('OPEN_WEATHER_API_URL', 'https://api.openweathermap.org/'),
     ],
 
+    'googleMaps' => [
+        'maps_api_key' => env('GOOGLE_MAPS_API_KEY', ''),
+
+    ],
+
+
+
 ];

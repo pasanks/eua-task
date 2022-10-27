@@ -49,6 +49,9 @@
                 @endif
 
                 <x-primary-button class="ml-3">
+                    <a href="{{ route('register') }}" class="text-sm text-white">Register</a>
+                </x-primary-button>
+                <x-primary-button class="ml-3">
                     {{ __('Log in') }}
                 </x-primary-button>
             </div>
